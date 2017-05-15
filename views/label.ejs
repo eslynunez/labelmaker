@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+ @media screen, print {
+
+  /* These artist labels were printed on 8x11 card stock, width px are okay for this */
+  .label-wrapper {
+   display: flex;
+   width: 530px;
+   height: 35%;
+   background: url('./os.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 25%;
+  }
+
+  .label {
+   flex-direction: column;
+   border: 2px solid #000000;
+   max-width: 420px;
+   max-height: 300px;
+   padding: 40px;
+   margin: 15px;
+  }
+
+  .label > div {
+   padding: 5px 0 5px 0;
+  }
+
+  .name {
+   font-weight: 600;
+  }
+
+  .title {
+   font-style: italic;
+  }
+
+  /*
+   For artwork descriptions we enforce character limits on the google form.
+   If more space is needed we accommodate that request with a custom card.
+  */
+  .description {
+   font-style: oblique;
+  }
+
+  /* Limit 2 labels per 8x11 page */
+  .page-break {
+   page-break-before: always;
+  }
+
+  /* Safari and Chrome require this if we want to print background images */
+  * {
+   -webkit-print-color-adjust: exact;
+  }
+ }
+</style>
+ <!-- add a page break after every other label --->
+ <% for (var i = 0; i < artistInfo.length; i++) { %>
+ <div class="label-wrapper <%= (i % 2 == 0 && i !== 0) ? 'page-break' : '' %>" data-row="<%= i %>">
+  <div class="label">
+   <div class="name"><%= artistInfo[i].name %></div>
+   <div class="title"><%= artistInfo[i].title %></div>
+   <div class="media"><%= artistInfo[i].media %></div>
+   <div class="price"><%= artistInfo[i].price %></div>
+   <div class="description"><%= artistInfo[i].description %></div>
+  </div>
+ </div>
+ <% } %>
+
+</body>
+</html>
