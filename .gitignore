@@ -1,5 +1,6 @@
-#Intellij
+#Intellij stuff
 .idea/*
+labelmaker.iml
 
 # Logs
 logs
