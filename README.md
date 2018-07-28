@@ -53,7 +53,7 @@ node .
 
 ### Getting Artist Info data
 This part is not so straight forward but still pretty easy. Google Forms allows you to export form data as a CSV but not
- as a JSON file. Luckily, there are tons or resources online that can do this for us. I'm well aware that I could have 
+ as a JSON file. Luckily, there are tons of resources online that can do this for us. I'm well aware that I could have 
  used or built a utility to ingest CSV and convert into a JSON file but it's too easy to use an existing online CSV to 
  JSON utility. Ingesting CSV data is a very obvious enhancement in the future.
  
