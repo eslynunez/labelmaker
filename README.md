@@ -1,9 +1,9 @@
 # Label Maker
 
 ### Description
-In May of 2017 I needed to make some labels for an art show I was organizing with the good folks at
+In May of 2017 I needed to make some labels for an art show with the good folks at
  [Oaks and Spokes](https://oaksandspokes.com/). This is the fourth year I've helped with this event and it has been a 
-wonderful experience working with so many creative people. We accepted work from several very talented NC artists.
+wonderful experience working with so many creative and hardworking people. 
 While I enjoyed organizing this event it kept me away from writing code for fun. On the weekend before the event I 
 needed to make some artwork labels and out of frustration with LibreOffice (sorry Libre), I decided it would be easier 
 to code this out and print the labels. So I did that and got to code for fun while doing something completely unrelated.
