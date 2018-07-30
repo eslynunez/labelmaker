@@ -67,7 +67,6 @@ There are tons of resources online, all that matters is that `artistinfo.json` i
 
 ### Help with this utility
 If anyone else would like to use this please reach out. if you have any questions or feedback shoot me a message!
-esly@oaksandspokes.com
-ennunezc@gmail.com
 
+esly@oaksandspokes.com
 
