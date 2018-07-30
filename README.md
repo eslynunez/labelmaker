@@ -65,6 +65,9 @@ Examples of CSV to JSON utilities
 There are tons of resources online, all that matters is that `artistinfo.json` is structured as the example provided in
  the repo. 
 
-
+### Help with this utility
+If anyone else would like to use this please reach out. if you have any questions or feedback shoot me a message!
+esly@oaksandspokes.com
+ennunezc@gmail.com
 
 
